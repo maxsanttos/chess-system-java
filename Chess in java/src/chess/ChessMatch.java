@@ -2,12 +2,11 @@ package chess;
 
 import boardgame.Board;
 import chess.pieces.King;
-import chess.pieces.Rook;
+import  chess.pieces.Rook;
 
 public class ChessMatch {
-    
     private Board board;
-    
+
     public ChessMatch(){
         board = new Board(8, 8);
         initialSetup();
