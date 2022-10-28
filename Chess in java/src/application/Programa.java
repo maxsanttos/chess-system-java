@@ -20,7 +20,7 @@ public class Programa {
                 System.out.println();
                 System.out.print("Source:");
                 ChessPosition source = UI.redChessPosition(sc);
-    
+               
                 System.out.println();
                 System.out.print("Target:");
                 ChessPosition target = UI.redChessPosition(sc);
