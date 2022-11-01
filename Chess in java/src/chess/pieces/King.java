@@ -8,8 +8,8 @@ import chess.Color;
 public class King extends ChessPiece {
     public King(Board board, Color color) {
         super(board, color);
-        //TODO Auto-generated constructor stub
     }
+
     @Override
     public String toString(){
         return "K";
@@ -50,7 +50,6 @@ public class King extends ChessPiece {
         if (getBoard().positionExists(p) && canMove(p)) {
         mat[p.getRow()] [p.getColumn()] = true; 
         }
-
 
         // nw noroeste
         p.setValues(position.getRow() - 1, position.getColumn() - 1);
