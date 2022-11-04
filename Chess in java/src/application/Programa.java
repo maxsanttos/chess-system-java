@@ -38,7 +38,6 @@ public class Programa {
                 if (capturePiece != null) {
                     captured.add(capturePiece);
                 }
-
             } 
             catch (ChessException e) {
                 System.out.println(e.getMessage());
